@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Popover</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="bai1.css">
+	<link rel="stylesheet" href="css/fontawesome-all.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="popover.js"></script>
+</head>
+<body>
+	<div class="container text-center">
+		<h1>Hiệu ứng popover</h1>
+		<b class="btn btn-default nut1">Click me</b>
+		<b class="btn btn-primary nut2">Click me</b>
+		<b class="btn btn-success nut3">Click me</b> <br>
+		<div class="btn btn-danger" hu="popover" data-content="Đây là hiệu ứng popover" data-title="Tiêu đề"
+	data-placement="bottom"
+	>Show popover</div>
+	<div class="btn btn-danger" hu="tooltip"  title="Đây là hiệu ứng Tooltip"
+	data-placement="bottom"
+	>Di chuyển vào đây </div>
+	<a class="btn btn-primary" data-toggle="modal" href='#modal-id'>Trigger modal</a>
+	<div class="modal fade" id="modal-id">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				</div>
+				<div class="modal-body">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	
+</body>
+</html>

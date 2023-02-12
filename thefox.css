@@ -1,0 +1,292 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+footer .icon ul {
+    list-style-type: none;
+}
+
+footer .icon li {
+    margin-left: 18px;
+    color: white;
+    float: left;
+}
+
+footer {
+    color: #94a5ad;
+    padding: 28px 0px;
+    height: 70px;
+    background-color: #222534;
+    border-top: 5px solid #1a1c29;
+}
+
+.thanh {
+    padding-bottom: 75px;
+    padding-top: 30px;
+    border-top: 5px solid #a0b1bb;
+}
+
+.demolink {
+    text-shadow: 1px 1px 1px grey;
+}
+
+.link h4.text-center {
+    margin-bottom: 12px;
+    margin-top: 30px;
+    text-shadow: 1px 1px 1px gray;
+}
+
+.iconlink:hover {
+    background-color: #20c3fa;
+    cursor: pointer;
+}
+
+.iconlink {
+    margin-left: 5px;
+    padding: 12px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+
+.thumbnail:hover .link {
+    top: 4px;
+    display: block;
+}
+.link {
+    
+padding: 55px 25px;
+    
+color: white;
+    
+background-color: rgba(0, 0, 0, 0.32);
+    
+position: absolute;
+    
+width: 255px;
+    
+height: 208px;
+    
+transition: 0.4s;
+    
+top: -248px;
+}
+
+
+.noidung1 {
+    color: rgba(128, 128, 128, 0.42);
+    margin-bottom: 30px;
+}
+
+.noidung1 p {
+    font-size: 16px;
+    color: gray;
+}
+
+.thongtin p {
+    color: gray;
+}
+
+.thongtin {
+    color: rgba(128, 128, 128, 0.42);
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.42);
+    padding-bottom: 18px;
+}
+
+.noidung h3 {
+    margin-bottom: 15px;
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #2b3e4c;
+}
+
+.link h3 {
+    color: white;
+}
+
+.noidung .thumbnail {
+    overflow: hidden;
+    position: relative;
+    border: none;
+}
+
+.noidung {}
+
+.breadcrumb > .active {
+    color: white;
+}
+
+.breadcrumb li a {
+    color: white;
+}
+
+a {}
+
+.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
+}
+
+.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
+    color: white;
+    background-color: #1bbc9b;
+    border-radius: 5px;
+}
+
+.pagination > li > a, .pagination > li > span {
+    color: rgba(0, 0, 0, 0.68);
+    padding: 7px 7px;
+    width: 28px;
+    margin-left: 10px;
+    border: none;
+    height: 28px;
+}
+
+.pagination > li:last-child > a, .pagination > li:last-child > span {
+    margin-left: 30px;
+    width: 70px;
+    height: 27px;
+}
+
+.pagination > li:first-child > a, .pagination > li:first-child > span {
+    margin-left: 20px;
+    width: 90px;
+    height: 27px;
+}
+
+.pagination > li:last-child > a:hover, .pagination > li:last-child > span {
+    background-color: gray;
+    color: white;
+}
+
+.pagination > li:first-child > a:hover, .pagination > li:first-child > span {
+    color: white;
+    background-color: #334960;
+}
+
+a.btn.btn-default.xemthem:hover {
+    color: white;
+    background-color: #181d23;
+    font-size: 16px;
+}
+
+a.btn.btn-default.xemthem {
+    padding: 15px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-color: black;
+    width: 150px;
+    height: 50px;
+    letter-spacing: 1px;
+}
+
+.breadcrumb {
+    margin-top: 18px;
+    float: right;
+    background-color: transparent;
+    margin-bottom: 0px;
+}
+
+.info i.fas.fa-bars {
+    cursor: pointer;
+    margin-left: 20px;
+    font-size: 20px;
+    color: gray;
+    background-color: white;
+    padding: 8px 8px;
+    border-radius: 4px;
+}
+
+.info h3 {
+    font-size: 23px;
+    font-family: lato;
+}
+
+.info {
+    margin-bottom: 100px;
+    padding: 45px 0px;
+    color: white;
+    background-color: #2e3f51;
+}
+
+.navbar-brand > img {
+    width: 100%;
+}
+
+nav.navbar.navbar-default {
+    border: none;
+    background-color: white;
+}
+
+i.fas.fa-search {
+    color: #a0b3c1;
+}
+
+.icon i{
+    margin-left: 12px;
+    margin-right: 12px;
+    padding-top: 35px;
+    color: #a0b3c1;
+    float: left;
+    font-size: 23px;
+}
+
+footer .icon i {color: white;}
+.icon {
+    float: left;
+}
+.navbar-default .navbar-nav > li > a {
+    font-size:18px;
+    padding: 35px;
+    margin: 0px 12px;
+    padding-left: 0px;
+    color: #a0b3c1;
+    border-top: 5px solid rgba(39, 184, 153, 0);
+    padding-right: 0px;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #27b899;
+    border-top: 5px solid  #27b899;
+}
+
+a.navbar-brand {
+    padding: 0px;
+}
+@media (max-width: 768px){
+    *{
+        
+    }
+
+.navbar-default .navbar-toggle {
+    border: none;
+}
+
+.navbar-header {
+    border: none;
+}
+
+.navbar-default .navbar-nav > li > a {
+    padding: 10px 0px;
+}
+
+.icon {
+    display: none;
+}
+
+.navbar-default .navbar-toggle {
+    margin-top: 25px;
+}
+
+.navbar-brand > img {
+    padding-top: 17px;
+    margin-left: 20px;
+    width: 70%;
+    height: 111%;
+}
+

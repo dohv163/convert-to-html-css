@@ -1,0 +1,82 @@
+*{
+	margin: 0;	
+	padding: 0;
+}
+
+.chu2 {
+    width: 100px;
+    top: 110px;
+}
+
+.chu3 {
+    left: -100px;
+    top: 150px;
+    width: 160px;
+}
+
+._1khoi:hover .chu2 {
+
+	transition: 1.5s;
+    transform: translateX(156px);
+    transition-delay:0.9s;
+}
+._1khoi:hover .chu3 {
+
+	transition: 1.5s;
+    transform: translateX(259px);
+    transition-delay:1.6s;
+}._1khoi:hover .chu1 {
+
+	transition: 1.5s;
+    transform: translateX(156px);
+    transition-delay:0.5s;
+}
+.chu1,.chu2,.chu3 {
+    line-height: 30px;
+    color: white;
+    background-color: gray;
+    position: absolute;
+    height: 30px;
+}
+
+.chu1 {
+    width: 100px;
+    top: 70px;
+}
+
+img.layer1 {
+    overflow: hidden;
+}
+
+
+._1khoi:hover .layer1{
+	transiton:2s;
+	transform:scale(0.9);
+}
+
+h1 {
+	left: -174px;
+	text-transform: uppercase;
+	color: white;
+	position: absolute;
+}
+
+.den {
+    position: absolute;
+}
+
+._1khoi {
+    overflow: hidden;
+    height: 500px;
+    width: 500px;
+    position: relative;
+    margin: auto;
+}
+
+
+._1khoi:hover h1 {
+	z-index:2;
+	transition: 1s;
+	transform: translateX(330px);
+
+}

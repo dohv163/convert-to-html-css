@@ -1,0 +1,125 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+.foot .col-md-12 {
+    color: gray;
+}
+
+.foot .col-md-7 {
+    margin: 20px 0px 15px -26px;
+}
+
+.foot a {
+    ,: 10px 10px 10px 0px
+    font-size: 14px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.foot {
+    padding: 53px 0px;
+    margin-left: 0px;
+}
+
+.nenanh2 b {
+    margin-left: 6px;
+}
+
+.nenanh2 a.btn.btn-default {
+    width: 120px;
+    height: 50px;
+    margin: 8px;
+    line-height: 39px;
+    text-transform: uppercase;
+}
+
+.nenanh2 p {
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.nenanh2 {
+    padding: 100px 0px;
+    background: url(image/banner-bg.jpg);
+    color: white;
+}
+
+.nentrang1 p {
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.nentrang1 h2 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.nentrang1 hr.ngan {
+	
+width: 60%;
+	
+margin: 40px 0px;
+	
+height: 2px;
+	
+background-color: rgba(128, 128, 128, 0.19);
+}
+
+.nentrang1 {
+    padding: 48px 0px 60px 0px;
+}
+
+.nenxam1 p {
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.nenxam1 h3 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.nenxam1 hr.ngan {
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.06);
+    width: 60%;
+    margin: 40px 0px;
+}
+
+.nenxam1 {
+    padding: 48px 0px;
+    background-color: #F8F8F8;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.27);
+}
+
+.nenanh a.btn.btn-default {
+    margin-left: 7px;
+}
+
+.nenanh h3 {
+    font-size: 23px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.61);
+}
+
+.nenanh h1 {
+    font-size: 59px;
+    font-weight: 900;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+nav.navbar.navbar-default {
+    margin-bottom: 0px;
+    border: 0px;
+    font-size: 14px;
+}
+
+.nenanh {
+    padding: 230px 0px 280px 0px;
+    background-image: url(image/intro-bg.jpg);
+    color: white;
+}
+body{
+	font-family: 'Lato', sans-serif;
+}

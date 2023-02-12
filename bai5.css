@@ -1,0 +1,292 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar-fixed-top .thunho {
+    background-color: black;
+    height: 40px;
+    width: 100%;
+}
+
+footer {
+    padding: 46px;
+    height: 92px;
+}
+
+ul.foot {
+    list-style-type: none;
+}
+
+.foot li {
+    float: left;
+    margin-left: 20px;
+}
+
+.foot .icon {
+    margin: auto;
+    font-size: 18px;
+    padding: 9px;
+    color: white;
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+
+.contact textarea {    height: 257px;
+    border-radius: 8px;}
+
+input.form-control.nhap {
+    height: 69px;
+    padding-left: 5px;
+    box-shadow: none;
+    color: rgba(128, 128, 128, 0.22);
+    font-weight: 600;
+    font-size: 23px;
+    background: white;
+    border: none;
+    margin-bottom: 25px;
+}
+
+.contact {
+    padding: 140px 0px 130px 0px;
+    color: white;
+    background-size: cover;
+    background-color: black;
+}
+
+.logo {
+    height: 147px;
+    line-height: 147px;
+}
+
+.person li {
+    margin-bottom: 52px;
+    float: left;
+    margin-left: 11px;
+}
+
+.person ul {
+    margin: auto;
+    list-style-type: none;
+}
+
+.icon {margin-left: 175%;font-size: 18px;padding: 9px;color: white;background-color: black;width: 40px;height: 40px;border-radius: 50%;}
+
+
+.person p {
+    color: gray;
+    font-size: 18px;
+}
+
+.person h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.person {
+    margin-top: 164px;
+    background-color: #F8F9FA;
+    padding: 160px 0px 160px 0px;
+}
+
+.about {
+    padding: 140px 0px 0px 0px;
+}
+
+.chu1 {
+    font-weight: 600;
+    font-size: 25px;
+    color: white;
+    border: 5px solid rgb(218, 218, 218);
+    padding: 30px;
+    background-color: #FED136;
+    width: 160px;
+    height: 160px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+
+
+.phai p {
+    font-size: 17px;
+    color: gray;
+}
+
+.phai {
+    height: 240px;
+    margin-bottom: 110px;
+}
+
+.phai h3 {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.trai p {
+    color: gray;
+    font-size: 17px;
+}
+
+.trai h3 {
+    font-weight: 600;
+    font-size: 26px;
+}
+img.img-circle {
+    border: 6px solid rgba(169, 169, 169, 0.26);
+}
+
+.anh img.img-circle {
+    width: 100%;
+}
+
+
+
+.trai {
+    margin-bottom: 120px;
+    height: 240px;
+}
+
+.sanpham p {
+    color: gray;
+    font-size: 18px;
+}
+
+.portfolio {
+    background-color: #F8F9FA;
+    padding: 158px 0px 188px 0px;
+}
+
+.sanpham {
+    margin-bottom: 30px;
+    height: 368px;
+    width: 100%;
+    background-color: white;
+}
+
+.portfolio h3 {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.view {
+    display: none;
+    color: white;
+    opacity: 0.9;
+    padding: 27%;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: #FED136;
+    font-size: 40px;
+    position: absolute;
+}
+
+.anh1 {
+    position: relative;
+    color: white;
+}
+
+.anh1:hover .view {
+    display: block;
+}
+
+.service p {
+    color: gray;
+    font-size: 18px;
+}
+
+.service h3 {
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.iconto {
+    padding: 20px;
+    font-size: 40px;
+    color: white;
+    background-color: #FED136;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.to p {
+    font-size: 18px;
+    margin-bottom: 75px;
+    color: gray;
+}
+
+.to h1 {
+    letter-spacing: 2px;
+    margin-bottom: 17px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.service {
+    padding: 160px 0px 170px 0px;
+}
+
+.btn.btn-default.nut1 {
+    text-transform: uppercase;
+    border: none;
+    background-color: #FED136;
+    color: white;
+    line-height: 56px;
+    width: 227px;
+    height: 69px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nenanh h1 {
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    font-size: 68px;
+    font-weight: 900;
+}
+
+.nenanh h3 {
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.nenanh {
+    padding: 300px 0px 200px 0px;
+    color: white;
+    background: url(image/header-bg.jpg);
+    background-size: cover;
+}
+
+.navbar-default .navbar-nav > li > a {text-transform: uppercase;color: #FFF2EC;}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #FEC70D;
+}
+
+
+.navbar-default .navbar-brand {
+    font-size: 23px;
+    color: #FED136;
+}
+
+nav.navbar.navbar-default {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    padding: 20px 0px;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.thunho {
+    background-color: black;
+    height: 40px;
+    width: 100%;
+    padding: 0px;
+}
+

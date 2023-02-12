@@ -1,0 +1,243 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.iconfooter {
+    font-size: 16px;
+    color: #212529;
+}
+
+.footer .icon.fas.fa-phone {
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.footer h1 {
+    margin: 0;
+    padding-bottom: 29px;
+    color: #212529;
+}
+
+.footer {
+    padding: 135px 0px 145px 0px;
+}
+
+.pofolio .nut1 button.btn.btn-default {
+    font-size: 17px;
+    color: #212529;
+    text-transform: uppercase;
+    border-radius: 300px;
+    width: 215px;
+    height: 57px;
+    font-weight: 600;
+}
+
+.pofolio {
+    padding: 135px 0px 128px 0px;
+    color: white;
+    background-color: #212529;
+}
+
+.pofolio h3 {
+    padding-bottom: 24px;
+}
+
+.anh .container-fluid {
+    padding-left: 0px;
+}
+
+.anh img {
+    height: 245px;
+}
+
+.anh {
+    height: 488px;
+    margin-left: 0px;
+}
+
+.chu {
+    padding-top: 20%;
+    height: 244px;
+    opacity: 0.8;
+    display: none;
+    text-align: center;
+    font-size: 25px;
+    width: 453px;
+    background-color: #F05F40;
+    color: white;
+    position: absolute;
+}
+
+.anh ._1anh {
+    position: relative;
+}
+
+._1anh:hover .chu {
+    display: block;
+}
+
+.service h3 {
+    font-size: 26px;
+}
+
+.service .content {
+    padding-bottom: 130px;
+    font-size: 16px;
+    color: #6C757D;
+}
+
+.service .icon.far.fa-gem {
+    font-size: 64px;
+    color: #f05f40;
+}
+
+.nentop button.btn.btn-default {
+    margin-bottom: 138px;
+    border-radius: 295px;
+    font-size: 16px;
+    border: none;
+    color: white;
+    width: 194px;
+    height: 56px;
+    background-color: #F05F40;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.top2 button.btn.btn-default {
+    margin-bottom: 130px;
+    margin-top: 0px;
+    color: black;
+    background-color: white;
+}
+
+.chunho {
+    color: #CDCAB5;
+    font-size: 23px;
+    margin-bottom: 50px;
+}
+
+.footer .chunho {
+    letter-spacing: 1px;
+    font-size: 16px;
+    color: #212529;
+}
+
+.top2 .chunho {
+    margin-bottom: 0px;
+    padding-bottom: 25px;
+    font-weight: 100;
+    color: #FACFC6;
+    font-size: 18px;
+}
+
+hr.ngan {
+    border-color: #F05F40;
+    border-width: 4px;
+    padding-bottom: 35px;
+    width: 4%;
+    margin: auto;
+}
+
+.top2 hr.ngan {
+    border-color: white;
+    padding-bottom: 30px;
+}
+
+.service hr.ngan {
+    margin-bottom: 76px;
+    border-color: #f05f40;
+}
+
+.nentop h1 {padding-bottom: 45px;font-weight: 600;color: white;margin: 0;padding-top: 154px;font-size: 58px;}
+
+.top2 h1 {
+    padding: 136px 0px 23px 0px;
+    font-weight: 100;
+    font-size: 33px;
+}
+
+.service h1 {
+    padding-top: 136px;
+}
+
+.nentop {
+    margin-top: -60px;
+    background: url(image/header.jpg) scroll bottom;
+    background-size: cover;
+}
+
+.nentop.top2 {
+    background: transparent;
+    background-color: #f05f40;
+}
+
+nav.navbar.navbar-default {
+    background: transparent;
+    margin-bottom: 0px;
+    border: none;
+    border-radius: 0px;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.menu {
+    background-color: white;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.37);
+}
+
+.navbar-default .navbar-nav > li > a {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #C5B8B0;
+    margin-left: 30px;
+    padding: 20px 0px;
+    font-size: 14px;
+}
+
+.menu  .navbar-nav > li > a {
+    color: black;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #f05f40;
+    background: transparent;
+}
+
+.menu  .navbar-nav > li > a:hover {
+    color: black;
+}
+
+
+
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: gray;}
+
+a.navbar-brand {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: white;
+}
+
+.navbar-default .navbar-brand {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #c5b8b0;
+    font-size: 20px;
+}
+
+.menu .navbar-brand:hover {
+    color: #f05f40;
+}
+
+.menu .navbar-brand {
+    color: #f05f40;
+}
+
+.menu .navbar-default .navbar-brand {
+    color: #f05f40;
+}
+

@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.ndchitiet {
+    overflow: hidden;
+}
+
+
+._4noidung li {
+   
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+}
+
+._4noidung li.show {
+   
+    transform: scale(1.2);
+    transition:1.2s;
+    visibility: visible;
+    opacity: 1;
+}
+
+b.btn.btn-default {
+    border-color: transparent;
+    background: transparent;
+}
+
+
+
+li.active {
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+}
+
+
+.ndchitiet img {
+    margin-right: 10px;
+    float: left;
+}
+
+._4nut {
+    top: 50px;
+    position: relative;
+}
+
+._4noidung ul {
+    list-style-type: none;
+}
+
+._4noidung {
+    text-align: left;
+    color: gray;
+    padding: 20px 20px;
+    height: 258px;
+    border: 1px solid gray;
+    left: 300px;
+    width: 610px;
+    position: relative;
+    border-radius: 5px;
+    top: 110px;
+    overflow: hidden;
+}
+
+._4nut li {
+    margin-left: 25px;
+    float: left;
+}
+
+._4nut ul {
+    margin-left: 300px;
+    list-style-type: none;
+}

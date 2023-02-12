@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    padding: 52px;
+    color: white;
+}
+
+.nenanh2.contact {
+    background: none;
+    padding: 208px 0px 218px 0px;
+}
+
+.nenanh2 p {
+    margin: 0px;
+    font-size: 18px;
+    padding-bottom: 25px;
+}
+
+.nenanh2 h3 {
+    margin: 0px;
+    font-weight: 700;
+    font-size: 26px;
+    padding-bottom: 40px;
+}
+
+.nenanh2 .btn.btn-default {
+    border: 1px solid #42DCA3;
+    border-radius: 0px;
+    background-color: rgba(255, 255, 255, 0);
+    width: 250px;
+    height: 50px;
+    line-height: 37px;
+    text-transform: uppercase;
+}
+
+.nenanh2 .btn.btn-default:hover {
+    color: black;
+    background-color: #42DCA3;
+}
+
+.btn.btn-default.nut {
+    width: 147px;
+    height: 48px;
+    margin-left: 10px;
+}
+
+.nenanh2 a {
+    font-weight: 700;
+    color: #42DCA3;
+    font-size: 18px;
+}
+
+.nenanh2 a:hover {
+    text-decoration: none;
+}
+
+.nenanh2 a:hover {
+    color: black;
+}
+
+.nenanh2 {
+    background: url(image/downloads-bg.jpg);
+    background-size: cover;
+    color: white;
+    padding: 208px 0px 200px 0px;
+}
+
+.about a {
+    color: #35D28E;
+}
+
+.about h3 {
+    font-size: 25px;
+    margin-bottom: 39px;
+    font-weight: 600;
+}
+
+.about {
+    color: white;
+    padding: 208px 0px 237px 0px;
+}
+
+.about p {
+    margin-bottom:30px;
+    font-size:16px;
+}
+.nenanh a {
+    color: white;
+}
+
+.icon {
+    border-radius: 54%;
+    border: 2px solid;
+    margin: auto;
+    width: 55px;
+    height: 55px;
+    font-size: 23px;
+    padding: 12px;
+}
+
+.nenanh p {
+    font-size: 21px;
+    margin-bottom: 55px;
+}
+
+.nenanh h1 {
+    font-size: 68px;
+    font-weight: bold;
+    margin-bottom: 65px;
+    margin-top: 0px;
+}
+
+.nenanh {
+    width: 100%;
+    height: 637px;
+    background: url(image/intro-bg1.jpg) no-repeat bottom center scroll;
+    background-size: cover;
+    padding-top: 170px;
+    color: white;
+}
+body{
+    background-color:black;
+}
+.navbar-default .navbar-brand:hover{
+    color:white;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: white;
+}
+
+
+
+nav.navbar.navbar-default {
+    padding-top: 10px;
+    height: 70px;
+    border-radius: 0px;
+    text-transform: uppercase;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.thunho {
+    padding-top: 5px;
+    height: 60px;
+    border-bottom: 1px solid gray;
+    background-color: black;
+}

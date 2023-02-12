@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.xanh {
+    background: url(image/anh1.png) right;
+    background-size: cover;
+
+}
+.motkhoi:hover .xanh{
+	backface-visibility:hidden;
+	transform:rotateY(180deg);
+}
+
+.motkhoi:hover .den{
+	backface-visibility:hidden;
+	transform:rotateY(0deg);
+}
+
+
+.den,.xanh {
+	transition:1.2s;
+	transform:rotateY(180deg);
+    border-radius: 50%;
+    font-size: 12px;
+    border: 3px solid white;
+    box-sizing: border-box;
+    color: white;
+    position: absolute;
+    padding: 50px 50px;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+}
+
+.motkhoi {
+    padding: 50px 50px;
+    background: black;
+    top: 50px;
+    position: relative;
+    border: 5px solid green;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+}

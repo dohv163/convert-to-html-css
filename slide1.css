@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+span.phai {
+    position: absolute;
+    right: -269px;
+    top: 90px;
+}
+
+span.trai {
+    position: absolute;
+    top: 90px;
+}
+
+span.nut {
+    display: none;
+    color: black;
+    position: absolute;
+}
+
+.slideanh img {
+    position: absolute;
+}
+
+span.slideanh {
+    position: relative;
+}
+
+span.slideanh:hover span.nut {
+    display: block;
+}
+
+span.slideanh:hover span.nut {
+    display: block;
+}
+
+a.khoi {
+    position: relative;
+    width: 271px;
+    height: 222px;
+}
